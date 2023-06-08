@@ -1,0 +1,137 @@
+html{
+  height: 100vh;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  max-width: 1280px;
+  margin: auto;
+}
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header{
+  width: 100%;
+  padding: 60px 4%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: .5s;
+}
+header.rolagem{
+  background-color: rgba(94, 170, 172, 0.925);
+  padding: 20px 4%;
+  
+}
+header.rolagem a, header.rolagem svg{
+  color: rgb(34, 97, 73);
+}
+ 
+i{
+  
+  font-size: 20px;
+  color: rgb(26, 75, 77);
+  text-decoration: none;
+  
+  
+}
+header ul{
+  list-style-type:none;
+}
+header ul li{
+  display: inline-block;
+  margin: 0 40px;
+}
+header ul li a{
+  color:rgb(26, 75, 77);
+  text-decoration: none;
+  font-size: 6mm;
+}
+.entre button{
+  width: 120px;
+  height: 40px;
+  border: 0;
+  margin-right: 100px;
+  border: 0;
+  background-color: rgb(160, 242, 245);
+  cursor: pointer;
+  transition: .2s;
+}
+.banner{
+  height: 100vh;
+  background-image: url("https://i0.wp.com/turismo.eurodicas.com.br/wp-content/uploads/2019/02/videos-de-viagens-de-aviao-2.jpg?fit=1360%2C907&ssl=1");
+  background-position: 100% 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner h1{
+  font-size: 2cm;
+}
+.banner h1 span{
+  color: rgb(94, 169, 172);
+}
+#form{
+    margin-left: 450px;
+}
+.descricao{
+    background-color: #fff;
+    border-radius: 40px 40px 0 0;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: #333;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: -50px;
+    text-align: center;
+    height: 100vh;
+}
+
+
+  
+  h1, h2, h3 {
+    margin: 0;
+  }
+  
+  .passagens {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .passagem {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .passagem img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+  }
+  
+  .passagem h3 {
+    margin-top: 10px;
+  }
+  
+  .passagem p {
+    margin: 10px 0;
+  }
+  
+  .passagem a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+  }
